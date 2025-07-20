@@ -22,3 +22,30 @@ The website showcases my skills, projects, and contact information in a clean an
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/portfolio.git
+
+
+   # Shivam Raj – Portfolio Website
+
+This is my personal portfolio website showcasing my skills, projects, and education details.  
+The site is built using **HTML, CSS, and JavaScript**, with a modern and responsive design.
+
+---
+
+## 📸 Screenshot
+![Portfolio Screenshot](scr.png)
+
+---
+
+## 🚀 Features
+- **Responsive Design** – Works on desktop, tablet, and mobile devices.
+- **Smooth Navigation** – Includes Home, About, Skills, Education, and Contact sections.
+- **Social Links** – LinkedIn, Instagram, Telegram icons for easy connectivity.
+- **About Me Button** – Directs visitors to the "About" section.
+
+---
+
+## 📂 Usage
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
+
