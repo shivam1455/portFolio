@@ -32,8 +32,7 @@ The site is built using **HTML, CSS, and JavaScript**, with a modern and respons
 ---
 
 ## 📸 Screenshot
-![Portfolio Screenshot](scr.png)
-
+<img width="1360" height="606" alt="scr" src="https://github.com/user-attachments/assets/24e99372-0b38-405a-a79e-bb7db567baab" />
 ---
 
 ## 🚀 Features
@@ -48,4 +47,5 @@ The site is built using **HTML, CSS, and JavaScript**, with a modern and respons
 1. **Clone this repository:**
    ```bash
    git clone https://github.com/your-username/portfolio.git
+
 
