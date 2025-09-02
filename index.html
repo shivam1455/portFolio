@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8"> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Shivam Raj, portfolio, prantik, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Shivam's Portfolio. Frontend Java Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id="favicon" rel="icon" href="./icons.jpg" sizes="64x64" type="image/png">
+
+    <title>Portfolio | Shivam Raj</title>
+</head>
+
+<style>
+  
+   
+    
+
+    #projects {
+      padding: 60px 20px;
+      background: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+
+    #projects .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    #projects .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      display: flex;
+      
+    }
+
+    #projects .section-title h2 {
+      font-size: 32px;
+      color: #333;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 8px;
+    }
+
+    #projects .section-title h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: #007bff;
+      display: block;
+      margin: 10px auto 0;
+      font-size: larger;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      border-radius: 2px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #e7880c;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+    }
+
+    .card h3 {
+      font-size: 22px;
+      color: #222;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: #555;
+      margin-bottom: 12px;
+    }
+
+    .card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .card ul li {
+      font-size: 14px;
+      background: #eef3f9;
+      color: #007bff;
+      margin: 6px 0;
+      padding: 6px 10px;
+      border-radius: 6px;
+      display: inline-block;
+    }
+
+   
+    .card ul li:hover {
+      background: #007bff;
+      color: #fff;
+      cursor: default;
+    }
+  
+
+  
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.about .row .image {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.about .row .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.about .row .content {
+    flex: 1 1 55%;
+}
+
+@media (max-width: 768px) {
+    .about .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about .row .image,
+    .about .row .content {
+        flex: 1 1 100%;
+    }
+}
+</style>
+<body oncontextmenu="return false">
+
+
+<header>
+        <a href="#" class="logo"> Shivam</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+          
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm Shivam <span>Raj</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn" ><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/shivam-raj-3a3590258/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+        <li><a class="telegram" href="https://t.me/Shivam8034" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+
+          <li><a class="instagram" aria-label="Instagram" href=https://www.instagram.com/shivamraj0304?igsh=bXBrZ3p3b2N0am9s"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./WhatsApp Image 2025-07-19 at 16.02.58_c89c39f4.jpg" alt="">
+</div>
+</section>
+
+
+
+
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt" ></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+        <div class="image">
+            <img draggable="false" class="tilt" src="./image_my.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>I'm Shivam</h3>
+            <span class="tag">Frontend Developer, Java </span>
+            
+            <p>Welcome to my world of code, creativity, and a dash of caffeine-powered madness. From late-night problem-solving to crafting ideas that spark excitement, I’m always ready to turn concepts into reality. Scroll down and let’s build something amazing together! 🚀✨</p>
+
+            <div class="box-container">
+                <div class="box">
+                    <p><span> email : </span> shivamraj1455@gmail.com</p>
+                    <p><span> place : </span> Jaipur, India - 302028</p>
+                </div>
+            </div>
+            
+            <div class="resumebtn">
+                <a href="https://drive.google.com/file/d/1ZuWcafvxO1GDAVEtpSCsyQ4eECmPgfdi/view?usp=drivesdk" target="_blank" class="btn"><span>Resume</span>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+  <div class="container skills-container" style="display: flex; justify-content: space-evenly;">
+    <div class="skills-column">
+      <h2 style="color: rgb(255, 255, 14); margin-bottom: 1rem;">Technical Skills</h2>
+      <ul style="font-size: 1.4rem;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Reactjs</li>
+        <li>Java</li>
+        <li>MySQL</li>
+      </ul>
+    </div>
+
+    <div class="skills-column">
+      <h2 style="color: rgb(255, 255, 14); margin-bottom: 1rem;">Communication Skills</h2>
+      <ul style="font-size: 1.4rem;">
+        <li>Public Speaking</li>
+        <li>Team Collaboration</li>
+        <li>Problem Solving</li>
+        <li>Time Management</li>
+        <li>Leadership</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="education" id="education">
+
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+
+    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+    <div class="box-container">
+
+    <div class="box">
+        <div class="image">
+        <img draggable="false" src="./maxresdefault.jpg" alt="Btech">
+        </div>
+        <div class="content">
+        <h3>Bachelor of Technology | Computer Science Engineering</h3>
+        <p>Arya College Of Engineering & I.T , Jaipur | RTU , Kota</p>
+        <h4>2023-2026 | Pursuing</h4>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./485360639_1065266525621918_7742405395952491557_n.jpg" alt="diploma">
+      </div>
+      <div class="content">
+      <h3>Diploma in | Electrical Engineering</h3>
+      <p>Govt. Polytechnic Kishanganj | SBTE BIHAR</p>
+      <h4>2019-2022 | Completed</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+      <img draggable="false" src="./school.jpg" alt="10th">
+      </div>
+      <div class="content">
+      <h3>10th</h3>
+      <p>Shanti Mission Academy | CBSE</p>
+      <h4>2019 | Completed</h4>
+      </div>
+    </div>
+
+</div>
+</section>
+
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+
+  <div class="timeline">
+
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2></h2>
+        </div>
+        <div class="desc">
+            <h3>Fundamentals Of Salesforce</h3>
+            <p> 2024</p>
+        </div>
+      </div>
+    </div>
+
+        <div class="container right">
+      <div class="content">
+        <div class="tag">
+        
+        </div>
+        <div class="desc">
+            <h3>Frontend Developer</h3>
+            <p>2025</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2></h2>
+        </div>
+        <div class="desc">
+            <h3>JAVA Programming</h3>
+            <p> 2025</p>
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+
+</div>
+
+
+<section id="projects">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="projects">
+      
+     
+      <div class="card">
+        <h3>Weather Application</h3>
+        <p>A web app that shows real-time weather updates using API integration.</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>OpenWeather API</li>
+        </ul>
+      </div>
+
+      
+      <div class="card">
+        <h3>Real-Time Chat Application</h3>
+        <p>A chat app that allows users to send and receive messages instantly.</p>
+        <ul>
+          <li>Node.js, Express</li>
+          <li>Socket.IO, MongoDB</li>
+        </ul>
+      </div>
+
+      
+      <div class="card">
+        <h3>Spotify Clone</h3>
+        <p>A music streaming clone with playlist and audio player features.</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Spotify Web API</li>
+        </ul>
+      </div>
+
+      
+      <div class="card">
+        <h3>Netflix Clone</h3>
+        <p>Movie streaming clone with trending movies and trailer previews.</p>
+        <ul>
+          <li>React, Firebase</li>
+          <li>API</li>
+        </ul>
+      </div>
+
+    
+      <div class="card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio website showcasing my projects and skills.</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Shivam's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+        
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+91 XXX-XXX-XXXX</p>
+          <p> <i class="fas fa-envelope"></i>shivamraj1455@gmail.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>Jaipur, India-302028</p>
+          <div class="share">
+
+              <a href="https://www.linkedin.com/in/shivam-raj-3a3590258/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+            <a href="mailto:shivamraj1455@gmail.com" aria-label="Mail" target="_blank">
+  <i class="fas fa-envelope"></i>
+</a>
+
+              <a href="https://t.me/Shivam8034" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/shivam-raj-3a3590258"> shivam raj</a></h1>
+
+</section>
+
+
+
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>
