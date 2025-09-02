@@ -32,7 +32,8 @@ The site is built using **HTML, CSS, and JavaScript**, with a modern and respons
 ---
 
 ## 📸 Screenshot
-<img width="1360" height="606" alt="scr" src="https://github.com/user-attachments/assets/24e99372-0b38-405a-a79e-bb7db567baab" />
+<img width="1360" height="606" alt="scr" src="https://github.com/user-attachments/assets/db1b7ada-d82b-4633-a13b-bdabab3e38a0" />
+
 ---
 
 ## 🚀 Features
@@ -50,3 +51,4 @@ The site is built using **HTML, CSS, and JavaScript**, with a modern and respons
 
 
 "# portFolio" 
+
